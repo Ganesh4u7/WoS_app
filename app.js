@@ -58,8 +58,8 @@ let app_init = async () => {
 
   app.use(routes);
 
-  app.listen(process.env.PORT || 5689, () => {
-    console.log(`App listening on port ${process.env.PORT || 5689}`);
+  app.listen(process.env.PORT || 80, () => {
+    console.log(`App listening on port ${process.env.PORT || 80}`);
   });
 };
 
